@@ -19,3 +19,31 @@ sudo apt-get update
 sudo apt-get install -y terraform
 
 }
+
+After the installation process:
+
+{
+
+cd ~/projects
+→ 프로젝트들을 보관하는 상위 폴더로 이동
+
+mkdir -p terraform-cloud-infrastructure-lab
+→ 새 프로젝트 폴더 생성
+
+cd terraform-cloud-infrastructure-lab
+→ 새 프로젝트 안으로 이동
+
+git init
+→ 이 폴더를 Git 저장소로 만듦
+
+git branch -M main
+→ 기본 브랜치 이름을 main으로 설정
+
+pwd
+→ 현재 위치 확인
+
+ls -la
+→ 숨겨진 .git 폴더까지 확인
+
+}
+
