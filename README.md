@@ -1,4 +1,4 @@
-# Terraform-Cloud-Infrastructure-Lab
+<img width="1402" height="68" alt="image" src="https://github.com/user-attachments/assets/9f75d359-4a4d-4ad5-99d3-b1dd9d679b71" /># Terraform-Cloud-Infrastructure-Lab
 A zero-cost infrastructure-as-code lab demonstrating Terraform, Docker networking, secure AWS architecture design, monitoring, infrastructure testing, and incident remediation.
 
 
@@ -110,7 +110,10 @@ git status --short
 Check for the processes using the above code
 
 
-
+***Start Terraform***
+- terraform init
+- ls -la
+- git status --short
 
 
 
