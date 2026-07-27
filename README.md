@@ -78,6 +78,48 @@ find . -maxdepth 2 -type d | sort
 
 printf ".terraform/\n*.tfstate\n*.tfstate.*\n*.tfplan\ncrash.log\ncrash.*.log\n*.tfvars\n!*.tfvars.example\n.env\n" > .gitignore
 
+}
+
+_________________________________________________________________________________________________________________________________
+
+***Terraform Folder***
+cd local-docker-infrastructure
+
+pwd
+
+nano versions.tf
+[
+terraform {
+  required_version = ">= 1.5.0"
+
+  required_providers {
+    docker = {
+      source  = "kreuzwerker/docker"
+      version = "~> 3.0"
+    }
+  }
+}
+]
+
+Then, press: Ctrl O -> Enter -> Ctrl X [ to save the above terraform script ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 cat .gitignore
 
 git status --short
