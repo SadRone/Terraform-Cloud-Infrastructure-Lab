@@ -103,6 +103,12 @@ terraform {
 
 Then, press: Ctrl O -> Enter -> Ctrl X [ to save the above terraform script ]
 
+cat versions.t
+
+git status --short
+
+Check for the processes using the above code
+
 
 
 
