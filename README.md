@@ -47,3 +47,18 @@ ls -la
 
 }
 
+Another Clear Steps:
+
+{
+
+git remote add origin ...
+→ 현재 Ubuntu 폴더를 GitHub 저장소와 연결
+
+git pull origin main
+→ GitHub에 있는 README를 Ubuntu로 내려받음
+
+ls -la
+→ README가 내려왔는지 확인
+
+}
+
