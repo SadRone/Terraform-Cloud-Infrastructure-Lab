@@ -68,3 +68,18 @@ ls -la
 Solution: Exit Ubuntu, and reopen through Terminal. Then, connect to GIT after finding the path with cd.
 -> curl -I --http1.1 --max-time 15 https://github.com
 
+***Finalize Terraform Basic Set Up***
+
+{
+
+mkdir -p local-docker-infrastructure aws-production-design/modules security monitoring incidents docs scripts .github/workflows
+
+find . -maxdepth 2 -type d | sort
+
+printf ".terraform/\n*.tfstate\n*.tfstate.*\n*.tfplan\ncrash.log\ncrash.*.log\n*.tfvars\n!*.tfvars.example\n.env\n" > .gitignore
+
+cat .gitignore
+
+git status --short
+
+}
