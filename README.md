@@ -62,3 +62,9 @@ ls -la
 
 }
 
+***Error*** 
+-> curl: (28) Connection timed out after 15001 milliseconds
+
+Solution: Exit Ubuntu, and reopen through Terminal. Then, connect to GIT after finding the path with cd.
+-> curl -I --http1.1 --max-time 15 https://github.com
+
